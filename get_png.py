@@ -2,6 +2,7 @@ import sys;
 import string;
 
 if len(sys.argv) != 2:
+	print("Wrong syntax.\nSyntax: python get_png.py [filename]\n");
 	exit();
 	
 filename = sys.argv[1];
